@@ -1,0 +1,25 @@
+stages:
+  - deploy
+
+deploy:
+  image: tiangolo/docker-with-compose
+  stage: deploy
+  script:
+    - mkdir $DOCKER_CERT_PATH
+    - echo "$CA" > $DOCKER_CERT_PATH/ca.pem
+    - echo "$CLIENT_CERT" > $DOCKER_CERT_PATH/cert.pem
+    - echo "$CLIENT_KEY" > $DOCKER_CERT_PATH/key.pem
+    - docker login -u $CI_DEPLOY_USER -p $CI_DEPLOY_PASSWORD $CI_REGISTRY
+    - docker pull registry.gitlab.com/mypplanner/docker-django
+    - docker-compose build
+    - docker-compose down
+    - docker-compose up -d --force-recreate
+    - rm -rf $DOCKER_CERT_PATH
+  only:
+    - master
+  variables:
+    DOCKER_TLS_VERIFY: "1"
+    DOCKER_HOST: "tcp://165.227.111.10:2376"
+    DOCKER_CERT_PATH: "certs"
+  tags:
+    - docker

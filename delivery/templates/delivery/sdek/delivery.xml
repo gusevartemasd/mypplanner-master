@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deliveryrequest account="{{ account }}"
+    date="{{ date_first }}" number="{{ order.id }}" ordercount="1" secure="{{ secure }}">
+    <order number="{{ order.id }}" reccitycode="{{ rec_city_code }}"
+        sendcitycode="{{ send_city_code }}" sendcitypostcode="{{ send_city_post_code }}"
+        reccitypostcode="{{ rec_city_post_code }}">
+        <address flat="{{ flat }}" house="{{ house }}" street="{{ street }}" pvzcode="{{ pvz_code }}"/>
+        <package barcode="{{ order.id }}" number="{{ order.id }}" sizea="{{ length }}"
+            sizeb="{{ width }}" sizec="{{ height }}" weight="{{ order.weight }}">
+            {% for item in items %}
+            <item amount="{{ item.quantity }}" comment="{{ item.article.title }}" cost="{{ item.article.price }}"
+                payment="0.0" warekey="{{ item.article.sku }}" weight="{{ item.article.weight }}"/>
+            {% endfor %}
+        </package>
+    </order>
+</deliveryrequest>

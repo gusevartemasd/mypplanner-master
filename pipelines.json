@@ -1,0 +1,366 @@
+{
+  "946099": {
+    "id": 946099,
+    "name": "Insta + Магазин",
+    "sort": 1,
+    "is_main": true,
+    "statuses": {
+      "18025789": {
+        "id": 18025789,
+        "name": "новый Заказ",
+        "color": "#99ccff",
+        "sort": 10,
+        "is_editable": true
+      },
+      "18025792": {
+        "id": 18025792,
+        "name": "Уточнение заказа (оплата)",
+        "color": "#ffff99",
+        "sort": 20,
+        "is_editable": true
+      },
+      "18025795": {
+        "id": 18025795,
+        "name": "Упаковка (оплачен)",
+        "color": "#ffcc66",
+        "sort": 30,
+        "is_editable": true
+      },
+      "18661417": {
+        "id": 18661417,
+        "name": "упакован",
+        "color": "#99ccff",
+        "sort": 40,
+        "is_editable": true
+      },
+      "18025798": {
+        "id": 18025798,
+        "name": "Отправка",
+        "color": "#ffcccc",
+        "sort": 50,
+        "is_editable": true
+      },
+      "142": {
+        "id": 142,
+        "name": "Успешно реализовано",
+        "color": "#CCFF66",
+        "sort": 10000,
+        "is_editable": false
+      },
+      "143": {
+        "id": 143,
+        "name": "Закрыто и не реализовано",
+        "color": "#D5D8DB",
+        "sort": 11000,
+        "is_editable": false
+      }
+    },
+    "_links": {
+      "self": {
+        "href": "/api/v2/pipelines?id=946099",
+        "method": "get"
+      }
+    }
+  },
+  "946111": {
+    "id": 946111,
+    "name": "Корпоративные продажи",
+    "sort": 2,
+    "is_main": false,
+    "statuses": {
+      "18025870": {
+        "id": 18025870,
+        "name": "Первичный контакт",
+        "color": "#99ccff",
+        "sort": 10,
+        "is_editable": true
+      },
+      "18025873": {
+        "id": 18025873,
+        "name": "Переговоры",
+        "color": "#ffff99",
+        "sort": 20,
+        "is_editable": true
+      },
+      "18025876": {
+        "id": 18025876,
+        "name": "Принимают решение",
+        "color": "#ffcc66",
+        "sort": 30,
+        "is_editable": true
+      },
+      "142": {
+        "id": 142,
+        "name": "Успешно реализовано",
+        "color": "#CCFF66",
+        "sort": 10000,
+        "is_editable": false
+      },
+      "143": {
+        "id": 143,
+        "name": "Закрыто и не реализовано",
+        "color": "#D5D8DB",
+        "sort": 11000,
+        "is_editable": false
+      }
+    },
+    "_links": {
+      "self": {
+        "href": "/api/v2/pipelines?id=946111",
+        "method": "get"
+      }
+    }
+  },
+  "1316809": {
+    "id": 1316809,
+    "name": "Возврат и обмен / Форма обратной связи",
+    "sort": 3,
+    "is_main": false,
+    "statuses": {
+      "21350017": {
+        "id": 21350017,
+        "name": "Заявка",
+        "color": "#99ccff",
+        "sort": 10,
+        "is_editable": true
+      },
+      "21350020": {
+        "id": 21350020,
+        "name": "Уточнение заявки",
+        "color": "#ffff99",
+        "sort": 20,
+        "is_editable": true
+      },
+      "21350023": {
+        "id": 21350023,
+        "name": "Заявка обработана",
+        "color": "#ffcc66",
+        "sort": 30,
+        "is_editable": true
+      },
+      "142": {
+        "id": 142,
+        "name": "Успешно реализовано",
+        "color": "#CCFF66",
+        "sort": 10000,
+        "is_editable": false
+      },
+      "143": {
+        "id": 143,
+        "name": "Закрыто и не реализовано",
+        "color": "#D5D8DB",
+        "sort": 11000,
+        "is_editable": false
+      }
+    },
+    "_links": {
+      "self": {
+        "href": "/api/v2/pipelines?id=1316809",
+        "method": "get"
+      }
+    }
+  },
+  "1321834": {
+    "id": 1321834,
+    "name": "Форма с чек-листами",
+    "sort": 4,
+    "is_main": false,
+    "statuses": {
+      "21393739": {
+        "id": 21393739,
+        "name": "Первичный контакт",
+        "color": "#99ccff",
+        "sort": 10,
+        "is_editable": true
+      },
+      "21393742": {
+        "id": 21393742,
+        "name": "Переговоры",
+        "color": "#ffff99",
+        "sort": 20,
+        "is_editable": true
+      },
+      "21393745": {
+        "id": 21393745,
+        "name": "Принимают решение",
+        "color": "#ffcc66",
+        "sort": 30,
+        "is_editable": true
+      },
+      "142": {
+        "id": 142,
+        "name": "Успешно реализовано",
+        "color": "#CCFF66",
+        "sort": 10000,
+        "is_editable": false
+      },
+      "143": {
+        "id": 143,
+        "name": "Закрыто и не реализовано",
+        "color": "#D5D8DB",
+        "sort": 11000,
+        "is_editable": false
+      }
+    },
+    "_links": {
+      "self": {
+        "href": "/api/v2/pipelines?id=1321834",
+        "method": "get"
+      }
+    }
+  },
+  "1371562": {
+    "id": 1371562,
+    "name": "Индивидуальные обложки",
+    "sort": 5,
+    "is_main": false,
+    "statuses": {
+      "21849160": {
+        "id": 21849160,
+        "name": "Оплата (уточнение)",
+        "color": "#ffff99",
+        "sort": 10,
+        "is_editable": true
+      },
+      "21849163": {
+        "id": 21849163,
+        "name": "Обложка (уточнение)",
+        "color": "#ffcc66",
+        "sort": 20,
+        "is_editable": true
+      },
+      "21874837": {
+        "id": 21874837,
+        "name": "готово к печати",
+        "color": "#fff000",
+        "sort": 30,
+        "is_editable": true
+      },
+      "21857167": {
+        "id": 21857167,
+        "name": "Отдали на печать",
+        "color": "#99ccff",
+        "sort": 40,
+        "is_editable": true
+      },
+      "142": {
+        "id": 142,
+        "name": "Успешно реализовано",
+        "color": "#CCFF66",
+        "sort": 10000,
+        "is_editable": false
+      },
+      "143": {
+        "id": 143,
+        "name": "Закрыто и не реализовано",
+        "color": "#D5D8DB",
+        "sort": 11000,
+        "is_editable": false
+      }
+    },
+    "_links": {
+      "self": {
+        "href": "/api/v2/pipelines?id=1371562",
+        "method": "get"
+      }
+    }
+  },
+  "1379977": {
+    "id": 1379977,
+    "name": "Сотрудничество с блогерами",
+    "sort": 6,
+    "is_main": false,
+    "statuses": {
+      "21922963": {
+        "id": 21922963,
+        "name": "Первичный контакт",
+        "color": "#99ccff",
+        "sort": 10,
+        "is_editable": true
+      },
+      "21922966": {
+        "id": 21922966,
+        "name": "Переговоры",
+        "color": "#ffff99",
+        "sort": 20,
+        "is_editable": true
+      },
+      "21922969": {
+        "id": 21922969,
+        "name": "Принимают решение",
+        "color": "#ffcc66",
+        "sort": 30,
+        "is_editable": true
+      },
+      "142": {
+        "id": 142,
+        "name": "Успешно реализовано",
+        "color": "#CCFF66",
+        "sort": 10000,
+        "is_editable": false
+      },
+      "143": {
+        "id": 143,
+        "name": "Закрыто и не реализовано",
+        "color": "#D5D8DB",
+        "sort": 11000,
+        "is_editable": false
+      }
+    },
+    "_links": {
+      "self": {
+        "href": "/api/v2/pipelines?id=1379977",
+        "method": "get"
+      }
+    }
+  },
+  "1471219": {
+    "id": 1471219,
+    "name": "Тестирование микросервиса",
+    "sort": 7,
+    "is_main": false,
+    "statuses": {
+      "22740238": {
+        "id": 22740238,
+        "name": "Первичный контакт",
+        "color": "#99ccff",
+        "sort": 10,
+        "is_editable": true
+      },
+      "22740241": {
+        "id": 22740241,
+        "name": "Переговоры",
+        "color": "#ffff99",
+        "sort": 20,
+        "is_editable": true
+      },
+      "22740244": {
+        "id": 22740244,
+        "name": "Принимают решение",
+        "color": "#ffcc66",
+        "sort": 30,
+        "is_editable": true
+      },
+      "142": {
+        "id": 142,
+        "name": "Успешно реализовано",
+        "color": "#CCFF66",
+        "sort": 10000,
+        "is_editable": false
+      },
+      "143": {
+        "id": 143,
+        "name": "Закрыто и не реализовано",
+        "color": "#D5D8DB",
+        "sort": 11000,
+        "is_editable": false
+      }
+    },
+    "_links": {
+      "self": {
+        "href": "/api/v2/pipelines?id=1471219",
+        "method": "get"
+      }
+    }
+  }
+}

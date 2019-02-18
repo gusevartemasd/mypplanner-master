@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-06 15:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: articles/apps.py:7 articles/models.py:63
+msgid "articles"
+msgstr "Товарные единицы"
+
+#: articles/models.py:19
+msgid "sku"
+msgstr "Артикул"
+
+#: articles/models.py:20
+msgid "sku.help_text"
+msgstr ""
+"От английского Stock Keeping Unit (идентификатор товарной позиции) — единица "
+"учёта запасов."
+
+#: articles/models.py:25
+msgid "article.title"
+msgstr "Название"
+
+#: articles/models.py:29 stock/models.py:13
+msgid "geometry"
+msgstr "Геометрия"
+
+#: articles/models.py:35 orders/models.py:59 stock/models.py:14
+msgid "width"
+msgstr "Ширина"
+
+#: articles/models.py:38 orders/models.py:58 stock/models.py:15
+msgid "height"
+msgstr "Высота"
+
+#: articles/models.py:41 orders/models.py:60 stock/models.py:16
+msgid "length"
+msgstr "Длина"
+
+#: articles/models.py:44
+msgid "price"
+msgstr "Цена"
+
+#: articles/models.py:49 orders/models.py:57 stock/models.py:17
+msgid "weight"
+msgstr "Вес"
+
+#: articles/models.py:52
+msgid "amo_crm_sku"
+msgstr "Артикул в AmoCRM"
+
+#: articles/models.py:62
+msgid "article"
+msgstr "Товарная единица"
+
+#: config/settings.py:177
+msgid "English"
+msgstr "Английский"
+
+#: config/settings.py:178
+msgid "Russian"
+msgstr "Русский"
+
+#: orders/apps.py:7 orders/models.py:81
+msgid "orders"
+msgstr "Заказы"
+
+#: orders/models.py:47
+msgid "payment_id"
+msgstr "Номер платежа"
+
+#: orders/models.py:48
+msgid "full_name"
+msgstr "ФИО"
+
+#: orders/models.py:49
+msgid "first_name"
+msgstr "Имя"
+
+#: orders/models.py:50
+msgid "middle_name"
+msgstr "Отчество"
+
+#: orders/models.py:51
+msgid "last_name"
+msgstr "Фамилия"
+
+#: orders/models.py:52
+msgid "phone"
+msgstr "Телефон"
+
+#: orders/models.py:53
+msgid "email"
+msgstr "E-mail"
+
+#: orders/models.py:54
+msgid "delivery"
+msgstr "Доставка"
+
+#: orders/models.py:55
+msgid "address"
+msgstr "Адрес"
+
+#: orders/models.py:56
+msgid "comment"
+msgstr "Комментарий"
+
+#: orders/models.py:61
+msgid "is_payed"
+msgstr "Оплачен ли заказ"
+
+#: orders/models.py:62
+msgid "payment_system"
+msgstr "Система оплаты"
+
+#: orders/models.py:63
+msgid "promo_code"
+msgstr "Промокод"
+
+#: orders/models.py:64
+msgid "total"
+msgstr "Сумма заказа"
+
+#: orders/models.py:65
+msgid "track"
+msgstr "Трек-номер"
+
+#: orders/models.py:71
+msgid "created_at"
+msgstr "Дата создания"
+
+#: orders/models.py:80
+#, fuzzy
+#| msgid "orders"
+msgid "order"
+msgstr "Заказы"
+
+#: stock/apps.py:7
+msgid "stock"
+msgstr "Склад"
+
+#: stock/models.py:12
+msgid "name"
+msgstr "Название"
+
+#: stock/models.py:23
+msgid "equipment"
+msgstr "Коробка"
+
+#: stock/models.py:24
+msgid "equipments"
+msgstr "Коробки"
+
+#~ msgid "title"
+#~ msgstr "Заголовок"
